@@ -11,4 +11,4 @@ This is assignment of News Articles
 
 user Can read live news from this website i have mentioned top 10 news articles here
 
-[Live demo](https://nisway-assignment.herokuapp.com/)
+[Live demo](https://niswey-assignment-tanjum786s-projects.vercel.app/)
