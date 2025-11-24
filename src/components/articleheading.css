@@ -59,6 +59,16 @@
     border-radius: 0.5rem;
 }
 
+.headongListContainer {
+    cursor: pointer;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.headongListContainer:hover {
+    transform: translateY(-5px);
+    box-shadow: 2px 5px 20px 0px rgb(150, 160, 175);
+}
+
 .dateTime,
 .singleArticleDateTime {
     display: block;

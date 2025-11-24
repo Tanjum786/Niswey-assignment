@@ -3,6 +3,20 @@
     display: flex;
 }
 
+.bannerContainer {
+    width: 100%;
+    height: 50rem;
+    overflow: hidden;
+    margin-bottom: 2rem;
+}
+
+.bannerImage {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+
 .contentContainer {
     padding: 0 10rem 10rem;
 }
@@ -49,6 +63,9 @@
     .singleArticle-container {
         width: 100%;
         overflow: hidden;
+    }
+    .bannerContainer {
+        height: 30rem;
     }
     .content{
         line-height: 20px;

@@ -9,7 +9,9 @@ function App() {
   const [data, setdata] = useState([]);
   const [loading, setloading] = useState(false);
 
-  useEffect(() => () => getdata(setdata, setloading), []);
+  useEffect(() => {
+    getdata(setdata, setloading);
+  }, []);
 
   return (
     <>
